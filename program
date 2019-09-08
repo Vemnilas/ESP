@@ -1,0 +1,34 @@
+print("Welcome to The ESP. (EfficientSavingProgram) Change the coding according to you.")
+hourly_wage=251
+job_length=8
+daily_wage=hourly_wage*job_length
+weekly_wage=daily_wage*5
+yearly_wage=weekly_wage*47
+print("Niillas's weekly wage is:")
+print(weekly_wage)
+print("Niillas's yearly wage is:")
+print(yearly_wage)
+print("Niillas has to buy food every week.")
+print("It costs about 170 norwegian kroner.")
+food_spend=170
+print("Niillas has to pay rent too.")
+print("He has to pay rent every week too.")
+print("The rent costs him 6050.")
+bill_pay=6050
+total_pay=food_spend + bill_pay
+print("In total, he has to pay 6220 Kroner every week.")
+print("He wants to buy a laptop for 7850.")
+print("Does he have enough?")
+print("To check, we have to subtract his weekly wage with his total pay. That will be his savings")
+savings=weekly_wage-total_pay
+print("His savings will be:")
+print(savings)
+print("Hmm, looks like he doesn't have enough")
+print("It looks like he's gonna wait until tommorow.")
+print("Then he has 12844.")
+laptop_price=11000
+leftovers=12844-laptop_price
+print("Niillas is going to a convention, and he needs a microphone. It costs 1840 kroner.")
+contact_microphone=1840
+print("Does he have enough?")
+print("Yes he has! He has just enough. His extra leftovers will be 4 kroner. That's not a lot, and you can't buy much with that.")
